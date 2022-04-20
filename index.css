@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -23,6 +25,21 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 2fr);
     grid-template-rows: repeat(4, 2fr);
+}
+
+.texto {
+    grid-column: 1 / 7;
+    grid-row: 3 / 5;
+    color: rgb(136, 14, 79);
+    align-self: center;
+    justify-self: center;
+    font-family: 'Square Peg', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0;
+    animation: toUp 3s forwards;
 }
 
 .rose_1 {
@@ -100,31 +117,6 @@ body {
     animation: toDown 1s ease-in;
 }
 
-/* 
-.rose_6 {
-    max-width: 6rem;
-    width: 100%;
-    animation: toDown 3s ease-in;
-}
-
-.rose_7 {
-    max-width: 6rem;
-    width: 100%;
-    animation: toDown 3s ease-in;
-}
-
-.rose_8 {
-    max-width: 6rem;
-    width: 100%;
-    animation: toDown 3s ease-in;
-}
-
-.rose_9 {
-    max-width: 6rem;
-    width: 100%;
-    animation: toDown 3s ease-in;
-} */
-
 @keyframes toDown {
     0% {
         opacity: 0;
@@ -134,31 +126,6 @@ body {
     100% {
         opacity: 1;
         transform: translateX(-10px);
-    }
-}
-
-
-@keyframes toLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(20em);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
-
-@keyframes toRight {
-    0% {
-        opacity: 0;
-        transform: translateX(-10em);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
     }
 }
 
@@ -173,8 +140,6 @@ body {
         transform: translate(0);
     }
 }
-
-
 
 /* ......................................... */
 #XMLID_226_ {
