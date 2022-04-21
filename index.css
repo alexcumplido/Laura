@@ -209,7 +209,7 @@ body {
 
 /* ......................................... */
 #XMLID_226_ {
-    animation: draw 1s forwards;
+    animation: draw 6s forwards;
 }
 
 @keyframes draw {
