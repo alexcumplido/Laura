@@ -69,7 +69,6 @@ body {
     grid-column: 4 / 6;
 }
 
-
 .center-roses {
     grid-row: 2 / 4;
     grid-column: 3 / 5;
@@ -83,7 +82,7 @@ body {
     transform: rotate(-40deg);
     max-width: 300px;
     width: 100%;
-    animation: toDown 1s ease-in;
+    animation: toDown 2s ease-in;
 }
 
 .rose_5 {
@@ -93,7 +92,7 @@ body {
     transform: rotate(-25deg);
     max-width: 300px;
     width: 100%;
-    animation: toDown 0.75s ease-in;
+    animation: toDown 2.20s ease-in;
 }
 
 .rose_6 {
@@ -103,7 +102,7 @@ body {
     transform: rotate(-55deg);
     max-width: 300px;
     width: 100%;
-    animation: toDown 0.50s ease-in;
+    animation: toDown 2s ease-in;
 }
 
 .rose_7 {
@@ -113,7 +112,7 @@ body {
     transform: rotate(10deg);
     max-width: 300px;
     width: 100%;
-    animation: toDown 0.50s ease-in;
+    animation: toDown 1.80s ease-in;
 }
 
 .rose_8 {
@@ -123,7 +122,7 @@ body {
     transform: rotate(24deg);
     max-width: 300px;
     width: 100%;
-    animation: toDown 0.50s ease-in;
+    animation: toDown 1.60s ease-in;
 }
 
 .rose_9 {
@@ -133,7 +132,7 @@ body {
     transform: rotate(-60deg);
     max-width: 300px;
     width: 100%;
-    animation: toDown 0.50s ease-in;
+    animation: toDown 1.40s ease-in;
 }
 
 #heart {
@@ -146,7 +145,6 @@ body {
     transform: rotate(15deg);
     animation: toLeft 1s ease-in;
 }
-
 
 #heart:before,
 #heart:after {
