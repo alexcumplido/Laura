@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    height: 100vh;
 }
 
 *,
@@ -11,6 +12,7 @@ html {
 }
 
 body {
+    height: 100vh;
     margin: 0;
     padding: 0;
     background: black;
@@ -148,7 +150,7 @@ body {
 @keyframes toUp {
     0% {
         opacity: 0;
-        transform: translateY(20em);
+        transform: translateY(2em);
     }
 
     100% {
